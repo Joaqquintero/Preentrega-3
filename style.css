@@ -10,6 +10,10 @@ h2{
     color: white;
 }
 
+.nav-item{
+    text-shadow: 0px 0px 6px grey;
+}
+
 .mein__h2{
     background-color: rgb(0, 0, 0);
 }
@@ -125,7 +129,7 @@ h2{
     max-height: 800px;
 }
 
-/*Heres ends menu styles*/
+
 /*Heres begging reservation styles*/
 
 .main {
@@ -294,6 +298,12 @@ h2{
 }
 
 
+/*heres begging How to Get There*/
+
+.map__text{
+    margin-top: 5px;
+    padding: 5px;
+}
 
 @media only screen and (max-width: 780px){
     .main__box--modifier {width: 80%;}
