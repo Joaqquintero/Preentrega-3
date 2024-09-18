@@ -8,6 +8,11 @@ h2{
     margin-bottom: 0;
     padding: 20px;
     color: white;
+    text-shadow: 0px 0px 6px grey;
+}
+
+h3{
+    text-shadow: 0px 0px 6px grey;
 }
 
 .nav-item{
@@ -80,6 +85,7 @@ h2{
     text-align: center;
     height: 300px;
     padding-top: 120px;
+    text-shadow: 0px 0px 6px grey;
 }
 
 .menu__p--modifier{
@@ -352,8 +358,71 @@ h2{
     padding: 5px;
 }
 
+/*heres begging About Us*/
+
+.head__image {
+    background-image: url(img/bifedechorzio.png);
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.head__image--cont{
+    background-color: rgba(128, 128, 128, 0.438);
+    height: 100%;
+    width: 100%;
+}
+
+.head__image--text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    color: white;
+}
+
+.container__about--left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus__left--text{
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.container__aboutus--img{
+    padding: 20px;
+}
 
 
+.aboutus__left--image{
+    background-image: url(img/ai-generated-9010875_1280.jpg);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: center;
+    padding: 0;
+}
+
+
+.aboutus__right--image{
+    background-image: url(img/mixta\ ensalad.jpg);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: center;
+    padding: 0;
+}
+
+/*heres begging media querys*/
 @media only screen and (max-width: 780px){
     .main__box--modifier {width: 80%;}
 }
