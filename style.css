@@ -298,12 +298,61 @@ h2{
 }
 
 
+/*heres begging Contact Us */
+
+.form__contact--modified{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    text-shadow: 0px 0px 6px black;
+    min-height: 600px;
+    border-bottom: 2px solid #F1DB4B;
+}
+
+.form__contact--modifiedr{
+    background-color: black;
+    border-right: 2px solid #F1DB4B;
+    border-bottom: 2px solid #F1DB4B;
+}
+
+.form__contact--modified input{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form__contact--modified textarea{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form__contact--modified label {
+    margin-bottom: 5px;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.form__contact--modified button{
+    margin: 15px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.form__p--modifier{
+    display: inline-block;
+    width: 80%;
+}
+
+
 /*heres begging How to Get There*/
 
 .map__text{
     margin-top: 5px;
     padding: 5px;
 }
+
+
 
 @media only screen and (max-width: 780px){
     .main__box--modifier {width: 80%;}
