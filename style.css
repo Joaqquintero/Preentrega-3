@@ -354,8 +354,9 @@ h3{
 /*heres begging How to Get There*/
 
 .map__text{
-    margin-top: 5px;
     padding: 5px;
+    margin-bottom: 0;
+    color: white;
 }
 
 /*heres begging About Us*/
@@ -388,14 +389,20 @@ h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: auto;
+    background-color: rgba(243, 243, 151, 0.37);
+    margin: 90px 30px 60px 30px;
+    padding: 20px;
 }
 
 .aboutus__left--text{
     width: 70%;
+    display: flex;
     text-align: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 19px;
     padding: 20px;
+    height: 100%;
 }
 
 .container__aboutus--img{
@@ -403,23 +410,15 @@ h3{
 }
 
 
-.aboutus__left--image{
+.aboutus__left--image img{
     background-image: url(img/ai-generated-9010875_1280.jpg);
-    height: 100%;
+    height: auto;
     width: 100%;
     object-fit: cover;
     position: center;
-    padding: 0;
-}
-
-
-.aboutus__right--image{
-    background-image: url(img/mixta\ ensalad.jpg);
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: center;
-    padding: 0;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*heres begging media querys*/
