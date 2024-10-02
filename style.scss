@@ -1,15 +1,31 @@
 // Colors
-$colorppal: #007A78;
-$colorsec: #FFC745;
+$colorppal: #AD4000;
+$colorsec: #612400c7;
 
 .carousel__item--modified{
     height: 800px;
     object-fit: cover;
 }
-h2{
-    margin-bottom: 0;
-    padding: 20px;
+
+.index__h1--modified{
+    font-size: 50px;
+    padding: 10px;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
+    text-align: center;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.466);
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    z-index: 1000;
     text-shadow: 0px 0px 6px grey;
 }
 
@@ -21,12 +37,17 @@ h3{
     text-shadow: 0px 0px 6px grey;
 }
 
-.mein__h2{
+.mein__h2{ 
     background-color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    padding: 20px;
+    color: white;
+    text-shadow: 0px 0px 6px grey;
 }
 
 .container-fluid{
-    background-color: $colorppal;
+    background: rgb(173,64,0);
+    background: radial-gradient(circle, rgba(173,64,0,1) 0%, rgba(97,36,0,1) 51%);
 }
 
 .call__h3--modified{
@@ -63,7 +84,7 @@ h3{
 }
 
 .footer__block--modifier{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .footer__icons--modified{
@@ -91,7 +112,8 @@ h3{
 }
 
 .menu__header--modified{
-    background-color: $colorppal;
+    background: rgb(173,64,0);
+    background: linear-gradient(0deg, rgba(173,64,0,1) 0%, rgba(140,52,0,1) 18%, rgba(97,36,0,1) 35%);
     text-align: center;
     height: 300px;
     padding-top: 120px;
@@ -115,6 +137,7 @@ h3{
     background-color: rgba(0, 0, 0, 0.479);
     padding: 0;
     margin: 0;
+    color: rgba(255, 255, 255, 0.719);
 }
 
 .card{
@@ -150,7 +173,7 @@ h3{
 
 .main {
     width:100%;
-    height: auto;
+    height: 800px;
     background-image: url(img/street-6099209_1280.jpg);
     background-position: center;
     object-fit: cover;
@@ -159,7 +182,7 @@ h3{
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    color: black;
+    color: white;
 }
 
 .main__box--modifier{
@@ -168,7 +191,7 @@ h3{
     width: 50%;
     border-radius: 10px;
     margin: 5px;
-    border: solid 1px black;
+    border: solid 1px #612400c7; 
 }
 
 .reserve__h3--modifier{
@@ -429,6 +452,20 @@ h3{
     padding: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.btn{
+    padding: 10px;
+    margin: 10px;
+    background-color: $colorsec;
+    color: white;
+    text-decoration: underline;
+}
+
+.btn:hover{
+    background-color: $colorppal;
+    color: white;
+    text-decoration: underline;
 }
 
 /*heres begging media querys*/
