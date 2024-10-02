@@ -1,6 +1,6 @@
 // Colors
-$colorppal: #F1DB4B;
-$colorsec: rgb(243, 243, 151);
+$colorppal: #007A78;
+$colorsec: #FFC745;
 
 .carousel__item--modified{
     height: 800px;
@@ -81,6 +81,14 @@ h3{
 }
 
 /*Heres begging menu styles*/
+.parallax {
+    background-image: url(img/fondomenu.jpg);
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .menu__header--modified{
     background-color: $colorppal;
@@ -104,7 +112,7 @@ h3{
 
 .main__div--modified{
     height: auto;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.479);
     padding: 0;
     margin: 0;
 }

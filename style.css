@@ -1,6 +1,7 @@
 .carousel__item--modified {
   height: 800px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 h2 {
@@ -23,7 +24,7 @@ h3 {
 }
 
 .container-fluid {
-  background-color: #F1DB4B;
+  background-color: #007A78;
 }
 
 .call__h3--modified {
@@ -49,7 +50,8 @@ h3 {
 
 .home__lotd--modified img {
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -70,7 +72,7 @@ h3 {
 
 .footer__icons--modified a {
   text-decoration: none;
-  color: #F1DB4B;
+  color: #007A78;
 }
 
 .footer__p--modified {
@@ -78,8 +80,17 @@ h3 {
 }
 
 /*Heres begging menu styles*/
+.parallax {
+  background-image: url(img/fondomenu.jpg);
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .menu__header--modified {
-  background-color: #F1DB4B;
+  background-color: #007A78;
   text-align: center;
   height: 300px;
   padding-top: 120px;
@@ -93,20 +104,20 @@ h3 {
 .main__h3--modifier {
   text-align: center;
   color: white;
-  background-color: #F1DB4B;
+  background-color: #007A78;
   margin: 0;
   padding: 10px;
 }
 
 .main__div--modified {
   height: auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.479);
   padding: 0;
   margin: 0;
 }
 
 .card {
-  background-color: rgb(243, 243, 151);
+  background-color: #FFC745;
   transform: 0.3s;
   filter: 0.3s;
   margin: 40px;
@@ -114,7 +125,8 @@ h3 {
 
 .card-img-top {
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card-body {
@@ -139,7 +151,8 @@ h3 {
   height: auto;
   background-image: url(img/street-6099209_1280.jpg);
   background-position: center;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,7 +162,7 @@ h3 {
 }
 
 .main__box--modifier {
-  background-color: rgb(243, 243, 151);
+  background-color: #FFC745;
   height: auto;
   width: 50%;
   border-radius: 10px;
@@ -187,7 +200,7 @@ h3 {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #F1DB4B;
+  background-color: #007A78;
   color: white;
   border: none;
   border-radius: 50%;
@@ -296,13 +309,13 @@ h3 {
   background-color: #000000;
   text-shadow: 0px 0px 6px black;
   min-height: 600px;
-  border-bottom: 2px solid #F1DB4B;
+  border-bottom: 2px solid #007A78;
 }
 
 .form__contact--modifiedr {
   background-color: black;
-  border-right: 2px solid #F1DB4B;
-  border-bottom: 2px solid #F1DB4B;
+  border-right: 2px solid #007A78;
+  border-bottom: 2px solid #007A78;
 }
 
 .form__contact--modified input {
@@ -344,7 +357,8 @@ h3 {
   background-image: url(img/bifedechorzio.png);
   height: 400px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
 }
 
@@ -392,7 +406,8 @@ h3 {
   background-image: url(img/ai-generated-9010875_1280.jpg);
   height: auto;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: center;
   padding: 50px;
   margin-top: 20px;
@@ -404,6 +419,4 @@ h3 {
   .main__box--modifier {
     width: 80%;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
