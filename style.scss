@@ -1,6 +1,7 @@
 // Colors
 $colorppal: #AD4000;
 $colorsec: #612400c7;
+$colorter: #00ADAC;
 
 .carousel__item--modified{
     height: 800px;
@@ -8,8 +9,16 @@ $colorsec: #612400c7;
 }
 
 .index__h1--modified{
-    font-size: 50px;
+    font-size: 40px;
     padding: 10px;
+}
+
+.h1__color--a{
+    color: $colorter;
+}
+
+.h1__color--b{
+    color: $colorter;
 }
 
 .caption {
@@ -20,7 +29,7 @@ $colorsec: #612400c7;
     color: white;
     text-align: center;
     font-size: 30px;
-    background: rgba(0, 0, 0, 0.466);
+    background: rgba(0, 0, 0, 0.616);
     padding: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -429,13 +438,17 @@ h3{
 }
 
 .aboutus__left--text{
-    width: 70%;
+    width: 100%;
     display: flex;
     text-align: center;
     align-items: center;
     font-size: 19px;
     padding: 20px;
     height: 100%;
+}
+
+.container__p--a{
+    padding-right: 30px;
 }
 
 .container__aboutus--img{
@@ -459,7 +472,6 @@ h3{
     margin: 10px;
     background-color: $colorsec;
     color: white;
-    text-decoration: underline;
 }
 
 .btn:hover{
@@ -471,4 +483,12 @@ h3{
 /*heres begging media querys*/
 @media only screen and (max-width: 780px){
     .main__box--modifier {width: 80%;}
+}
+
+@media only screen and (max-width: 920px) and (orientation: landscape) {
+    .col-md-4 {
+        order: 3;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }

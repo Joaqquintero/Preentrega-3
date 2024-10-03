@@ -5,8 +5,16 @@
 }
 
 .index__h1--modified {
-  font-size: 50px;
+  font-size: 40px;
   padding: 10px;
+}
+
+.h1__color--a {
+  color: #00ADAC;
+}
+
+.h1__color--b {
+  color: #00ADAC;
 }
 
 .caption {
@@ -17,7 +25,7 @@
   color: white;
   text-align: center;
   font-size: 30px;
-  background: rgba(0, 0, 0, 0.466);
+  background: rgba(0, 0, 0, 0.616);
   padding: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -411,13 +419,17 @@ h3 {
 }
 
 .aboutus__left--text {
-  width: 70%;
+  width: 100%;
   display: flex;
   text-align: center;
   align-items: center;
   font-size: 19px;
   padding: 20px;
   height: 100%;
+}
+
+.container__p--a {
+  padding-right: 30px;
 }
 
 .container__aboutus--img {
@@ -441,7 +453,6 @@ h3 {
   margin: 10px;
   background-color: rgba(97, 36, 0, 0.7803921569);
   color: white;
-  text-decoration: underline;
 }
 
 .btn:hover {
@@ -454,5 +465,12 @@ h3 {
 @media only screen and (max-width: 780px) {
   .main__box--modifier {
     width: 80%;
+  }
+}
+@media only screen and (max-width: 920px) and (orientation: landscape) {
+  .col-md-4 {
+    order: 3;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
