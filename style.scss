@@ -151,9 +151,9 @@ h3{
 
 .card{
     background-color: $colorsec;
-    transform: 0.3s;
-    filter: 0.3s;
     margin: 40px;
+    cursor: default;
+    transition: all 0.5s;
 }
 
 .card-img-top{
@@ -167,6 +167,11 @@ h3{
 
 .card:hover{
     filter: brightness(70%);
+}
+
+.sep__menu{
+    background-color: #ad3f00c4;
+    cursor: default;
 }
 
 .column{
@@ -200,7 +205,7 @@ h3{
     width: 50%;
     border-radius: 10px;
     margin: 5px;
-    border: solid 1px #612400c7; 
+    border: 3px solid $colorppal;
 }
 
 .reserve__h3--modifier{
@@ -224,9 +229,16 @@ h3{
     padding: 8px;
 }
 
+.form-control{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.171);
+    cursor: default;
+    border: 1px solid $colorppal;
+}
 
-
-
+.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.171);
+}
 
 .text-underline{
     text-decoration: underline;
@@ -392,6 +404,13 @@ h3{
     width: 80%;
 }
 
+.form-control-r{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.452);
+    cursor: default;
+    border: 1px solid $colorppal;
+}
+
 
 /*heres begging How to Get There*/
 
@@ -401,70 +420,85 @@ h3{
     color: white;
 }
 
+.map{
+    filter: brightness(5%);
+    transition: all 1s;
+}
+
+.map:hover{
+    filter: none;
+}
+
+
+
 /*heres begging About Us*/
 
-.head__image {
+.container__1--h2{
+    height: 300px;
+    width: 100%;
+}
+
+.container__1--h2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     background-image: url(img/bifedechorzio.png);
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    background-position: center;
 }
 
-.head__image--cont{
-    background-color: rgba(128, 128, 128, 0.438);
-    height: 100%;
-    width: 100%;
-}
 
-.head__image--text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 200px;
-    color: white;
-}
-
-.container__about--left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.container__2 .n-left{
     height: auto;
-    background-color: rgba(243, 243, 151, 0.37);
-    margin: 90px 30px 60px 30px;
-    padding: 20px;
+    padding: 0;
 }
 
-.aboutus__left--text{
-    width: 100%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    font-size: 19px;
-    padding: 20px;
-    height: 100%;
+.container__2 .n-right{
+    padding: 0px;
 }
 
-.container__p--a{
-    padding-right: 30px;
-}
-
-.container__aboutus--img{
-    padding: 20px;
-}
-
-
-.aboutus__left--image img{
-    background-image: url(img/ai-generated-9010875_1280.jpg);
+.cont__2--nleft{
+    width: auto;
     height: auto;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont__2--nleft p{
+    width: 80%;
+    height: auto;
+    margin: 40px 0px 40px 0px;
+    font-size: 20px;
+    padding-top: 120px;
+    background-color: $colorppal;
+    padding: 40px;
+    cursor: none;
+    transition: all 2s;
+}
+
+.cont__2--nleft p:hover{
+    background-color: $colorsec;
+    text-shadow: 0px 0px 2px white;
+}
+
+.container__2--nright{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__2--nright img{
+    width: 80%;
+    height: 500px;
     object-fit: cover;
-    position: center;
-    padding: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    border: solid 1px $colorppal;
+    margin: 40px 0px 40px 0px;
+    transition: all 1s;
+}
+
+.container__2--nright img:hover{
+    transform: scale(1.1);
 }
 
 .btn{
@@ -480,6 +514,10 @@ h3{
     text-decoration: underline;
 }
 
+.active{
+    border-bottom: 1px solid white;
+}
+
 /*heres begging media querys*/
 @media only screen and (max-width: 780px){
     .main__box--modifier {width: 80%;}
@@ -490,5 +528,11 @@ h3{
         order: 3;
         flex: 0 0 100%;
         max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .map{
+        filter: none;
     }
 }
